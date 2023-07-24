@@ -1,0 +1,55 @@
+<!-- jul 23 17:30 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Psychotron</title>
+    </head>
+    <body>
+        <div id="card">
+            <main>
+                <h1 id="main-title">Psychotron</h1>
+                <h2 id="main-subtitle">Schedule your meeting</h2>
+                <form>
+                    <hr>
+                    <p class="section-title">About you</p>
+                    <input type="text" placeholder="Name" name="personal-data" required></input>
+                    <input type="text" placeholder="Lastname" name="personal-data" required></input>
+                    <input type="text" placeholder="Document" name="personal-data" required></input>
+                    <hr>
+                    <p class="section-title">Tus datos de contacto</p>
+                    <input type="number" placeholder="Phone" name="contact" required></input>
+                    <input type="email" placeholder="Email" name="contact" required></input>
+                    <hr>
+                    <p class="section-title">How do you want to make your meeting?</p>
+                    <label for="videocall">
+                        <input type="radio" id="videocall" name="resource"> Videocall
+                    </label>
+                    <label for="chat">
+                        <input type="radio" id="chat" name="resource"> Chat
+                    </label>
+                    <hr>
+                    <p class="section-title">Do you need an specific date and time in mind? We will try!</p>
+                    <label>
+                        <input type="checkbox" id="date" name="date-time"> Date
+                    </label>
+                    <label>
+                        <input type="checkbox" id="time" name="date-time"> Time
+                    </label>                    
+                    <div></div>
+                    <hr>
+                    <p class="section-title">Topic to talk about (optional)</p>
+                    <textarea placeholder="Your idea here"></textarea>
+                    <hr>
+                    <button type="submit" id="request">request</button>
+                </form>
+            </main>
+            <main>
+                <p id="credits">By Nicolás Castellanos</p>
+            </main>
+        </div>
+    </body>
+</html>
+
+<!-- jul 23 19:04 -->
